@@ -1,0 +1,14 @@
+<!-- AUTO-GENERATED from packages/astro/src/packs/woo/components/FitRecommender. Edit there, then run: npm --prefix packages/astro run gen -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Size &amp; Fit Recommender</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+<section class="fit" data-dsgo-component="woo-fit-recommender" data-dsgo-props="{}" aria-live="polite"> <header class="fit__head"> <h2 class="fit__heading" data-bind="heading"></h2> <p class="fit__intro" data-bind="intro"></p> </header> <form class="fit__form" data-bind="form"> <fieldset class="field"> <legend class="field__label" data-bind="height_label"></legend> <select class="field__select" name="height" required> <option value="">—</option> <option value="short">&lt; 5'4"</option> <option value="medium">5'4" — 5'10"</option> <option value="tall">&gt; 5'10"</option> </select> </fieldset> <fieldset class="field"> <legend class="field__label" data-bind="build_label"></legend> <div class="field__choices" role="radiogroup"> <label class="choice"><input type="radio" name="build" value="slim" required><span data-bind="build_slim"></span></label> <label class="choice"><input type="radio" name="build" value="regular"><span data-bind="build_regular"></span></label> <label class="choice"><input type="radio" name="build" value="athletic"><span data-bind="build_athletic"></span></label> </div> </fieldset> <fieldset class="field"> <legend class="field__label" data-bind="fit_label"></legend> <div class="field__choices" role="radiogroup"> <label class="choice"><input type="radio" name="fit" value="snug" required><span data-bind="fit_snug"></span></label> <label class="choice"><input type="radio" name="fit" value="true"><span data-bind="fit_true"></span></label> <label class="choice"><input type="radio" name="fit" value="relaxed"><span data-bind="fit_relaxed"></span></label> </div> </fieldset> <button class="fit__submit" type="submit" data-bind="submit"></button> </form> <div class="fit__result" data-bind="result" hidden> <p class="fit__result-label" data-bind="result_label"></p> <p class="fit__result-size" data-bind="size"></p> <p class="fit__result-caveat" data-bind="caveat"></p> <button type="button" class="fit__retake" data-bind="retake"></button> </div> <p class="fit__unavailable" data-bind="no_sizes" hidden></p> </section> 
+    <script src="./app.js" defer></script>
+  </body>
+</html>
